@@ -10,10 +10,10 @@ const Card = () => {
   ];
 
   return (
-    <div className='flex flex-col m-10'>
+    <div className='flex flex-col m-10 space-y-10'>
       {items.map((item, index) => (
-        <Link key={index} href={item.link} className='w-[300px] h-[400px]'>
-            <img src={item.image} alt={item.title} className='bg-yellow-400 w-full h-4/5 object-cover' />
+        <Link key={index} href={item.link} className='w-[300px] h-auto'>
+            <img src={item.image} alt={item.title} className='bg-yellow-400 w-full h-[300px] object-cover' />
             <div className='mx-1'>
               <h2 className='text-lg font-bold'>{item.title}</h2>
               <p>{item.text}</p>
