@@ -4,9 +4,9 @@ import Link from 'next/link'
 const Card = () => {
   
   const items =[
-    {link: '', image: '', title: 'Projects', text: 'Sample text.'},
-    {link: '', image: '', title: 'Hobbies', text: 'Sample text.'},
-    {link: '', image: '', title: 'Journies', text: 'Sample text.'}
+    {link: '/projects', image: '', title: 'Projects', text: 'Sample text.'},
+    {link: '/passions', image: '', title: 'Passions', text: 'Sample text.'},
+    {link: '/adventures', image: '', title: 'Adventures', text: 'Sample text.'}
   ];
 
   return (
